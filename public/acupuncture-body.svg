@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500" fill="none">
+  <defs>
+    <linearGradient id="skin" x1="61" x2="243" y1="75" y2="471" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9D7C8"/>
+      <stop offset="1" stop-color="#DCC4B2"/>
+    </linearGradient>
+    <linearGradient id="shade" x1="150" x2="150" y1="90" y2="465" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3E4D6" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#C9AD9C" stop-opacity=".4"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="150" cy="472" fill="#657968" opacity=".08" rx="100" ry="12"/>
+  <path fill="url(#skin)" d="M133 84h34v37h-34z"/>
+  <ellipse cx="150" cy="52" fill="url(#skin)" rx="31" ry="39"/>
+  <path fill="#C5A997" d="M119 52c0-23 13-39 31-39 20 0 32 15 32 38-9-5-17-12-22-21-9 13-24 20-41 22Z" opacity=".26"/>
+  <path fill="url(#skin)" d="M126 107c-18 2-31 8-42 20l-28 69c-7 17-11 34-10 52l4 53c1 10 8 17 17 16 8-1 13-8 12-17l-2-50 26-48 12 51 9 44-7 43 2 65c0 11 8 18 18 17 9-1 14-8 14-17l2-61 7-41 7 41 2 61c0 9 5 16 14 17 10 1 18-6 18-17l2-65-7-43 9-44 12-51 26 48-2 50c-1 9 4 16 12 17 9 1 16-6 17-16l4-53c1-18-3-35-10-52l-28-69c-11-12-24-18-42-20l-25-3-25 3Z"/>
+  <path fill="url(#shade)" d="M150 103c-20 1-39 5-57 14l-25 68c-6 17-9 36-8 55l4 59c3 7 8 11 14 11 2 0 4 0 6-1l-2-49 26-48 11 52 9 42-7 44 2 64c1 8 6 13 13 13 6 0 11-4 12-10l2-66 7-41 7 41 2 66c1 6 6 10 12 10 7 0 12-5 13-13l2-64-7-44 9-42 11-52 26 48-2 49c2 1 4 1 6 1 6 0 11-4 14-11l4-59c1-19-2-38-8-55l-25-68c-18-9-37-13-57-14Z"/>
+  <path d="M119 144c10 9 20 14 31 14s21-5 31-14M113 178c11 9 23 14 37 14s26-5 37-14M111 221c12 5 25 8 39 8s27-3 39-8" stroke="#C1A28F" stroke-linecap="round" stroke-opacity=".42" stroke-width="2"/>
+  <path d="M123 109c-8 7-12 17-14 30M177 109c8 7 12 17 14 30" stroke="#F7E9DE" stroke-linecap="round" stroke-opacity=".75" stroke-width="3"/>
+  <circle cx="139" cy="54" r="1.5" fill="#A98776" opacity=".55"/>
+  <circle cx="161" cy="54" r="1.5" fill="#A98776" opacity=".55"/>
+  <path d="M145 70c3 2 7 2 10 0" stroke="#A98776" stroke-linecap="round" stroke-opacity=".4" stroke-width="1.5"/>
+</svg>
