@@ -15,7 +15,7 @@ export function PointMarker({
 }: PointMarkerProps) {
   return (
     <button
-      aria-label={`Punkt ${point.code}`}
+      aria-label={isCurrent ? 'Markierten Punkt aufdecken' : 'Diesen Punkt auswählen'}
       aria-pressed={isCurrent}
       className={`point-marker${isCurrent ? ' is-current' : ''}${isRevealed && isCurrent ? ' is-revealed' : ''}`}
       onClick={() => onSelect(point.id)}
